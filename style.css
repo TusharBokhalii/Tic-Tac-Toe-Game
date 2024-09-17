@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: darkcyan; */
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url("https://www.techgrapple.com/wp-content/uploads/2016/09/Xperia-style-blue-Black-Wallpaper.jpg");
+    transition: ease-in-out 0.5s;
+}
+input{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0px;
+    transition: ease-in-out 0.5s;
+}
+label{
+    text-align: left;
+    font-size: 20px;
+    width: 195px;
+    transition: ease-in-out 0.5s;
+}
+a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(240, 128, 128, 0.096);
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 15px;
+    transition: ease-in-out 0.5s;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    transition: ease-in-out 0.5s;
+}
+h1{
+    position: absolute;
+    top: 50px;
+    text-align: center!important;
+    margin-left: 156px;
+    transition: ease-in-out 0.5s;
+}
+.container{
+    width: 600px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgba(173, 216, 230, 0.11);
+    transition: ease-in-out 0.5s;
+}
